@@ -1,0 +1,132 @@
+    body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px;
+   background: linear-gradient(
+    to bottom,
+    rgb(82, 97, 165) 40%,
+    rgb(74, 42, 100) 50%,
+    rgb(148, 57, 121) 90%
+  );
+  border-radius: 30px;
+  box-shadow: 0 20px 12px rgba(0,0,0,0.25);
+
+
+}
+
+        h1 {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            margin-top: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        form {
+            background-color: #e6e0e0;
+            padding:40px;
+            max-width: 500px;
+             margin-left: 480px;
+             margin-right: 70px;
+             margin-top: 200px;
+             border-radius: 10px;
+              box-shadow: 0 40px 70px rgba(0,0,0,0.25);
+      
+          
+            }
+
+       input[type="text"] {
+         width: 70%;
+         padding: 10px;
+         border: none;
+         border-bottom: 1px solid #ccc; 
+         background-color: transparent; 
+          font-size: 16px;
+           outline: none; 
+        }
+
+        button[type="submit"] {
+            background-color: #cf9b4d;
+            color: white;
+            padding: 10px 50px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+        }
+
+
+        p {
+            font-size: 38px;
+            color: #ffffff;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #r{
+            color: #7c7c7c;
+            font-size: 20px;
+        }
+        #a{
+            color:#e9c184;
+
+        }
+     
+        form > label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius:5px;
+            border-top: 30px;
+           
+        }
+
+        input[type="checkbox"] {
+            margin-right: 8px;
+        }
+
+        form > label > span {
+            flex: 1;
+            font-size: 16px;
+        }
+
+        button[type="button"] {
+            width: 60px;
+            padding: 6px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+
+  
+        span + button[type="button"] {
+            background-color: rgb(92, 107, 173);
+            color: white;
+        }
+
+    
+        span + button[type="button"] + button[type="button"] {
+            background-color: rgb(173, 80, 145);
+            color: white;
+        }
+
+  
+        input[type="checkbox"]:checked + span {
+            text-decoration: line-through;
+            color: rgb(167, 166, 166);
+        }
+        
+        .pageTitle {
+            position: absolute;
+            top: 50%;               
+            right: 200px;           
+            transform: translateY(-50%);
+            text-align: center;      
+            font-weight: bold;
+            font-size: 50px;        
+            line-height: 0.7;
+            color: black;
+            z-index: 10;
+        }
